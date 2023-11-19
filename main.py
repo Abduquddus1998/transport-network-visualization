@@ -1,10 +1,12 @@
-import networkx as nx
-import matplotlib.pyplot as plt
-
+import networkx as nx  # python library to create Graph
+import matplotlib.pyplot as plt  # python library to plot
+# importing network_data
 from network_data import network_dict, edge_colors, network_line_labels, edge_weights
 
-# nx Graph class is used to create graph
+# nx class initialization
 network_graph = nx.Graph()
+# setting plot size
+plt.figure(figsize=(8, 8))
 
 
 def add_network_nodes():
@@ -107,8 +109,8 @@ edge_labels = nx.get_edge_attributes(network_graph, "weight")
 nx.draw_networkx_edge_labels(network_graph, pos, edge_labels, font_size=6)
 
 # Sets title for plot
-plt.title("Stockholm metro map")
+plt.title("Stockholm metro network")
 # Description for edge weight
-plt.text(70, -92, 'Distances between edges represented in kilometres', fontsize=8)
+plt.text(95, -92, 'Distances between edges represented in kilometres', fontsize=8)
 # Shows graph
 plt.show()
