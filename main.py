@@ -86,7 +86,7 @@ options = {
 # draws graph nodes
 nx.draw_networkx(network_graph, pos, node_color=node_color_list, **options)
 # draws graph edges
-nx.draw_networkx_edges(network_graph, pos, edge_color=edge_color_list)
+nx.draw_networkx_edges(network_graph, pos, edge_color=edge_color_list, width=4)
 
 
 # adds each network line name to the graph

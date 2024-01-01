@@ -5,7 +5,7 @@ t19_line = [{"name": "Hagsätra", "short_name": "Hag", "color": "#34a981", "pos"
             {"name": "Slussen", "short_name": "Slu", "color": "#B6B6B6", "pos": (135, 25), "label_pos": (142, 24)},
             {"name": "Gamla stan", "short_name": "Gam", "color": "#B6B6B6", "pos": (135, 75), "label_pos": (142, 75)},
             {"name": "Odenplan", "short_name": "Ode", "color": "#BCC10E", "pos": (110, 75), "label_pos": (104, 83)},
-            {"name": "Fridhemsplan", "short_name": "Fri", "color": "#34a981", "pos": (85, 75), "label_pos": None},
+            {"name": "Fridhemsplan", "short_name": "Fri", "color": "#34a981", "pos": (80, 75), "label_pos": None},
             {"name": "Vällingby", "short_name": "Väl", "color": "#34a981", "pos": (35, 75), "label_pos": (29, 82)},
             {"name": "Hässelby strand", "short_name": "Häs", "color": "#34a981", "pos": (5, 75), "label_pos": (-5, 82)}]
 
@@ -16,7 +16,7 @@ t18_line = [
     {"name": "Slussen", "short_name": "Slu", "color": "#B6B6B6", "pos": (135, 25), "label_pos": None},
     {"name": "Gamla stan", "short_name": "Gam", "color": "#B6B6B6", "pos": (135, 75), "label_pos": None},
     {"name": "Odenplan", "short_name": "Ode", "color": "#BCC10E", "pos": (110, 75), "label_pos": None},
-    {"name": "Fridhemsplan", "short_name": "Fri", "color": "#B6B6B6", "pos": (85, 75), "label_pos": None},
+    {"name": "Fridhemsplan", "short_name": "Fri", "color": "#B6B6B6", "pos": (80, 75), "label_pos": None},
     {"name": "Thorildsplan", "short_name": "Tho", "color": "#BCC10E", "pos": (60, 95), "label_pos": (53, 102)},
     {"name": "Alvik", "short_name": "Alv", "color": "#BCC10E", "pos": (30, 95), "label_pos": (27, 102)}]
 
@@ -26,7 +26,7 @@ t17_line = [{"name": "Skarpnäck", "short_name": "Ska", "color": "#000000", "pos
             {"name": "Slussen", "short_name": "Slu", "color": "#B6B6B6", "pos": (135, 25), "label_pos": None},
             {"name": "Gamla stan", "short_name": "Gam", "color": "#B6B6B6", "pos": (135, 75), "label_pos": None},
             {"name": "Odenplan", "short_name": "Ode", "color": "#BCC10E", "pos": (110, 75), "label_pos": None},
-            {"name": "Fridhemsplan", "short_name": "Fri", "color": "#B6B6B6", "pos": (85, 75), "label_pos": None},
+            {"name": "Fridhemsplan", "short_name": "Fri", "color": "#B6B6B6", "pos": (80, 75), "label_pos": None},
             {"name": "Stora mossen", "short_name": "Sto", "color": "#000000", "pos": (60, 50), "label_pos": (52, 41)},
             {"name": "Åkeshov strand", "short_name": "Åke", "color": "#000000", "pos": (20, 50), "label_pos": (10, 41)}]
 
@@ -62,7 +62,7 @@ t13_line = [{"name": "Norsborg", "short_name": "Nor", "color": "#f10d6b", "pos":
 t11_line = [{"name": "Akalla", "short_name": "Aka", "color": "#03D0C0", "pos": (45, 165), "label_pos": (52, 165)},
             {"name": "Kista", "short_name": "Kis", "color": "#03D0C0", "pos": (62, 142), "label_pos": (69, 141)},
             {"name": "Stadshagen", "short_name": "Sta", "color": "#B6B6B6", "pos": (80, 110), "label_pos": None},
-            {"name": "Fridhemsplan", "short_name": "Fri", "color": "#B6B6B6", "pos": (85, 75), "label_pos": None},
+            {"name": "Fridhemsplan", "short_name": "Fri", "color": "#B6B6B6", "pos": (80, 75), "label_pos": None},
             {"name": "Rådhuset", "short_name": "Råd", "color": "#03D0C0", "pos": (110, 50), "label_pos": None},
             {"name": "Kungsträdgården", "short_name": "Kun", "color": "#03D0C0", "pos": (180, 55),
              "label_pos": None}]
@@ -73,17 +73,17 @@ t10_line = [
     {"name": "Duvbo", "short_name": "Duv", "color": "#268ccf", "pos": (26, 138), "label_pos": (10, 138)},
     {"name": "Huvudsta", "short_name": "Huv", "color": "#268ccf", "pos": (50, 118), "label_pos": (45, 127)},
     {"name": "Stadshagen", "short_name": "Sta", "color": "#B6B6B6", "pos": (80, 118), "label_pos": (87, 118)},
-    {"name": "Fridhemsplan", "short_name": "Fri", "color": "#B6B6B6", "pos": (85, 75), "label_pos": (73, 61)},
+    {"name": "Fridhemsplan", "short_name": "Fri", "color": "#B6B6B6", "pos": (80, 75), "label_pos": (73, 61)},
     {"name": "Rådhuset", "short_name": "Råd", "color": "#268ccf", "pos": (110, 50), "label_pos": (88, 48)},
     {"name": "Kungsträdgården", "short_name": "Kun", "color": "#268ccf", "pos": (180, 50),
      "label_pos": (168, 35)}]
 
-network_dict = {"t14_line": t14_line, "t13_line": t13_line, "t18_line": t18_line,
-                "t17_line": t17_line, "t19_line": t19_line, "t11_line": t11_line, "t10_line": t10_line}
+network_dict = {"t13_line": t13_line, "t14_line": t14_line, "t17_line": t17_line, "t19_line": t19_line,
+                "t18_line": t18_line, "t11_line": t11_line, "t10_line": t10_line}
 
 edge_colors = {
-    "t19_line": "#34a981", "t18_line": "#34a981", "t17_line": "#34a981", "t14_line": "#f10d6b",
-    "t13_line": "#f10d6b", "t11_line": "#268ccf", "t10_line": "#268ccf"
+    "t19_line": "#34a981", "t18_line": "#BCC10E", "t17_line": "#000000", "t14_line": "#D014CF",
+    "t13_line": "#f10d6b", "t11_line": "#03D0C0", "t10_line": "#268ccf"
 }
 
 network_line_labels = [{"name": "T13", "pos": (-10, -60), "color": "#f10d6b"},
